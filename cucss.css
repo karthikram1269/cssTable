@@ -1,55 +1,55 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #121212; /* Dark background */
-    color: #ffffff; /* White text */
+    background-color: #121212; 
+    color: #ffffff; 
     margin: 0;
     padding: 20px;
 }
 
 .container {
-    max-width: 800px; /* Center the table */
+    max-width: 800px; 
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
-    background-color: #1e1e1e; /* Slightly lighter background for the container */
+    background-color: #1e1e1e;
 }
 
 .weather-table {
     width: 100%;
-    border-collapse: collapse; /* Remove space between borders */
-    margin-top: 20px; /* Space above the table */
+    border-collapse: collapse;
+    margin-top: 20px; 
 }
 
 .weather-table caption {
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: #ff4081; /* Accent color for caption */
+    color: #ff4081; 
 }
 
 .weather-table th, 
 .weather-table td {
-    padding: 12px 15px; /* Padding inside cells */
-    border: 1px solid #444; /* Border around cells */
+    padding: 12px 15px; 
+    border: 1px solid #444; 
     text-align: left;
 }
 
 .weather-table th {
-    background-color: #ff4081; /* Header background color */
-    color: white; /* Header text color */
+    background-color: #ff4081; 
+    color: white; 
 }
 
 .weather-table tr:nth-child(even) {
-    background-color: #2a2a2a; /* Alternate row color */
+    background-color: #2a2a2a;
 }
 
 .weather-table tr:hover {
-    background-color: #333; /* Highlight row on hover */
+    background-color: #333; 
 }
 
 .weather-table td {
-    color: #e0e0e0; /* Color for table data */
+    color: #e0e0e0; 
 }
 
 .weather-table tbody tr:last-child td {
-    border-bottom: none; /* Remove border for last row */
+    border-bottom: none; 
 }
